@@ -27,8 +27,8 @@ const version = Realm.schemaVersion(path);
 
 console.log('Realm schema version: ' + version);
 
-Realm.deleteFile(realmConfig);
+//Realm.deleteFile(realmConfig);
 
-console.log('Deleted Realm at ' + path);
+//console.log('Deleted Realm at ' + path);
 
 process.exit(0);
