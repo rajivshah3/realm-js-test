@@ -8,7 +8,7 @@ const TestSchema = {
   },
 };
 
-const path = resolve(__dirname, 'testRealm.realm');
+const path = resolve(__dirname, 'temporäre', 'testRealm.realm');
 
 const encryptionKey = Int8Array.from([
   92,
